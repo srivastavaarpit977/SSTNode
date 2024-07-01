@@ -88,6 +88,6 @@ const port = 3000;
 const host = 'localhost';
 
 server.listen(port,host,()=>{
-    console.log('Server is running on http://${host}:${port}');
+    console.log(`Server is running on http://${host}:${port}`);
 });
 
